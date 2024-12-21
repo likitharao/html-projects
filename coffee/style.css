@@ -1,0 +1,133 @@
+body
+{
+    background-color: black;
+}
+.navbar
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.right
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:35px;
+    font-size: 25px;
+}
+.day
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    font-size: 30px;
+    color: #ffffff;
+}
+.button
+{
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+}
+button 
+{
+    background-color: goldenrod;
+    width:140px;
+    height:50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    justify-content:space-evenly;
+}
+.day 
+{
+  color:white;
+  font-size: 40px;
+
+}
+p
+{
+    color:white;
+    font-size:25px;
+}
+.parent 
+{
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+}
+.child h1
+{
+        width: 70%;
+        font-size:50px;
+}
+ /* .child
+{ 
+    display: flex;
+    flex-direction:column ;
+}  */
+.more
+{
+    background-color: goldenrod;
+    width:140px;
+    height:50px;
+}
+.products
+{
+    font-size: 60px;
+    color:white;
+    
+}
+h1
+{
+ color: white;
+}
+
+.parent-shake{
+    display: flex;
+}
+.shake
+{
+    border: 3px solid goldenrod;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    text-align:center;
+    width:300px;
+    height:400px;
+}
+
+.line
+{
+    margin-left:300px;
+    width: 750px;
+    height:2px;
+    background-color: goldenrod;
+}
+.final 
+{
+    display : flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin:50px;
+    text-align:center;
+    /* width:400px; */
+    /* height:420px; */
+
+}
+.final p
+{
+    font-size:25px;
+}
+span
+{
+    color:goldenrod;
+}
+.para
+{
+    text-align: center;
+}
